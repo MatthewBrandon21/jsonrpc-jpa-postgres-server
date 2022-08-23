@@ -86,49 +86,6 @@ Note : because rpc must have parameter to pass, so user_id only for payload to f
 }
 ```
 
-## API Reference (Applied for all crud function)
-
-#### Create Product
-
-```
-  POST /product/create
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `name` | `string` | **Required** |
-| `description` | `string` | **Required** |
-| `store_id` | `string` | **Required** |
-
-#### Update product
-
-```
-  PUT /product/update/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `product_id` | **Required**. Id of product to update |
-| `name` | `string` | **Required** |
-| `description` | `string` | **Required** |
-| `store_id` | `string` | **Required** |
-
-#### List All product
-
-```
-  GET /product/all
-```
-
-#### Delete product
-
-```
-  DELETE /product/delete/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `product_id` | **Required**. Id of product to delete |
-
 
 ## Support
 
